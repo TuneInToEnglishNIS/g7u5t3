@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>TuneInToEnglish</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container1">
+        <div class="nav">
+          <div class="logo">
+            <span
+              ><span style="color: darkorchid">Tune</span
+              ><span style="color: darkorange">In</span
+              ><span style="color: rgb(255, 0, 0)">To</span
+              ><span style="color: #0000ff">English</span>
+            </span>
+          </div>
+          <img style="position: absolute; width:488px; height:150px; left:1px" src="./styles/flower-removebg-preview.png" alt="">
+          <img style="position: absolute; width:488px; height:150px; left:477px" src="./styles/flower-removebg-preview.png" alt="">
+          <img style="position: absolute; width:488px; height:150px; left:950px" src="./styles/flower-removebg-preview.png" alt="">
+          <a style="position: relative; left:350px;" href="https://tuneintoenglishnis.github.io/home/" class="nav__link btn">Main</a>
+          <a style="position: relative; left:100px" href="https://tuneintoenglishnis.github.io/g7u5t2/" class="nav__link btn">Back</a>
+        </div>
+      </div>
+    </header>
+    <header class="header1">
+      <div class="container1">
+        <div class="nav">
+         <div class="logo1"> <span > Grade 7. Concept 'Experience '</span>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ<span class="aaa">Unit 5. Space and Earth.</span></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="task">
+       <h1 style="position: absolute; left: 33px; top: 230px; color: #cc0000;"> 'Dwarf planet song'    Space explained by KLT</h1>
+        <h1 style="position: absolute; left: 33px; top: 300px;"> <span style="color: #0000ff;"> BEFORE  LISTENING </span><br>
+            <br>
+            <span><span style="font-weight: 900;">Task 1</span> Listen to the song and discuss the following questions.</span> <br>
+            <span>
+                1.	Do you think Pluto should still be considered a planet? Why or why not? <br>
+                2.	How did the discovery of other dwarf planets impact Pluto's classification? <br>
+                3.	What criteria do you think should be used to define a planet?
+                </span>
+                 <br>
+                 <br>
+               <span style="color: #0000ff;">LISTENING PART 1</span>
+          </h1>
+          <h1 style="top: 555px;"><span style="font-weight: 900;">Task 2</span> :Listen to the song and fill in the gaps with the planets.</h1>
+          <h1 style="top: 620px; color:#cc0000; font-size:25px">HaumeaㅤㅤㅤㅤErisㅤㅤㅤㅤPlutoㅤㅤㅤㅤMakemakeㅤㅤㅤㅤCeres</h1>
+          <h1 style="top: 675px;">
+            There are five dwarf planets in our solar system. <br>
+            And we revolve around the sun. <br>
+            Four of us live in the Kuiper Belt <br>
+            As far as planets we’re the smallest one. <br>
+            <br>
+            My name is 1) <input style="width: 150px; height:30px; font-size:28px;" type="text" id="b1">, <br>
+            And I am a dwarf planet. <br>
+            I am the closest to the sun. <br>
+            There is a mysterious white sport on my rocky surface, <br>
+            And I am the smallest one.  <br>
+            <br>
+            My name is 2) <input style="width: 150px; height:30px; font-size:28px;" type="text" id="b2">, <br>
+            I am a dwarf planet. <br>
+            And was the 9th planet from the Sun. <br>
+            And I am 1/3 water in the form of ice. <br>
+            And 5 moons that are lots of fun. <br>
+            <br>
+            My name is 3) <input style="width: 150px; height:30px; font-size:28px;" type="text" id="b3">,  <br>
+            I am oval in shape. <br>
+            Due to the fast rotations that I make.  <br>
+            I take 285 years to orbit the sun, <br>
+            Because I am so far away. <br>
+            <br>
+            There are five dwarf planets in our solar system. <br>
+            And we revolve around the sun. <br>
+            Four of us live in the Kuiper Belt <br>
+            As far as planets we’re the smallest one. <br>
+            <br>
+            I am 4) <input style="width: 150px; height:30px; font-size:28px;" type="text" id="b4">, <br>
+            I have no atmosphere. <br>
+            I was discovered in 2005. <br>
+            I am one of the reasons Pluto lost its status,  <br>
+            So naturally be do not jive. <br>
+            <br>
+            My name is 5) <input style="width: 150px; height:30px; font-size:28px;" type="text" id="b5"> <br>
+            I am more massive than Pluto. <br>
+            I am big but lots of fun. <br>
+            557 years the amount of years <br>
+            It takes me to revolve around the sun. <br>
+            <br>
+            There are five dwarf planets in our solar system. <br>
+            And we revolve around the sun. <br>
+            Four of us live in the Kuiper Belt <br>
+            As far as planets we’re the smallest one. <br><br>
+            <button class="btn" onclick="check()">Check Answers</button>
+            </h1>
+            <script>
+                function check(){
+                    var b1 = document.getElementById("b1").value;
+                    if(b1 === "Ceres"){document.getElementById("b1").style.backgroundColor = "lightgreen";}
+                    else{document.getElementById("b1").style.backgroundColor = "red";}
+                    
+                    var b2 = document.getElementById("b2").value;
+                    if(b2 === "Pluto"){document.getElementById("b2").style.backgroundColor = "lightgreen";}
+                    else{document.getElementById("b2").style.backgroundColor = "red";}
+                    
+                    var b3 = document.getElementById("b3").value;
+                    if(b3 === "Haumea"){document.getElementById("b3").style.backgroundColor = "lightgreen";}
+                    else{document.getElementById("b3").style.backgroundColor = "red";}
+                    
+                    var b4 = document.getElementById("b4").value;
+                    if(b4 === "Makemake"){document.getElementById("b4").style.backgroundColor = "lightgreen";}
+                    else{document.getElementById("b4").style.backgroundColor = "red";}
+                    
+                    var b5 = document.getElementById("b5").value;
+                    if(b5 === "Eris"){document.getElementById("b5").style.backgroundColor = "lightgreen";}
+                    else{document.getElementById("b5").style.backgroundColor = "red";}
+                }
+            </script>
+            <h1 style="color: #0000ff; top:2090px">AFTER LISTENING</h1>
+            <h1 style="top:2135px"><span style="font-weight: 900;">Task 3</span> :Discuss the following questions.</h1>
+            <h1 style="top: 2180px;">1.	Do you think the classification of planets and dwarf planets is important? Why or why not? <br>
+                2.	If you could visit one of the dwarf planets mentioned in the song, which one would you choose, and why?
+                </h1>
+                <div class="container">
+                    <button type="button" class="btn">Show lyrics</button>
+                    <div class="content">
+                        There are five dwarf planets in our solar system. <br>
+                        And we revolve around the sun. <br>
+                        Four of us live in the Kuiper Belt. <br>
+                        As far as planets we’re the smallest one. <br>
+                        <br>
+                        My name is <span style="color: #cc0000; font-weight:900;">Ceres</span>, <br>
+                        And I am a dwarf planet. <br>
+                        I am the closest to the sun.  <br>
+                        There is a mysterious white sport on my rocky surface, <br>
+                        And I am the smallest one.  <br>
+                        <br>
+                        My name is <span style="color: #cc0000; font-weight:900;">Pluto</span>. <br>
+                        I am a dwarf planet. <br>
+                        And was the 9th planet from the Sun. <br>
+                        And I am 1/3 water in the form of ice. <br>
+                        And 5 moons that are lots of fun. <br>
+                        <br>
+                        My name is <span style="color: #cc0000; font-weight:900;">Haumea</span>,  <br>
+                        I am oval in shape. <br>
+                        Due to the fast rotations that I make.  <br>
+                        I take 285 years to orbit the sun. <br>
+                        Because I am so far away. <br>
+                        <br>
+                        There are five dwarf planets in our solar system. <br>
+                        And we revolve around the sun. <br>
+                        Four of us live in the Kuiper Belt <br>
+                        As far as planets we’re the smallest one. <br>
+                        <br>
+                        I am <span style="color: #cc0000; font-weight:900;">Makemake</span>, <br>
+                        I have no atmosphere. <br>
+                        I was discovered in 2005. <br>
+                        I am one of the reasons Pluto lost its status,  <br>
+                        So naturally be do not jive. <br>
+                        <br>
+                        My name is <span style="color: #cc0000; font-weight:900;">Eris</span>. <br>
+                        I am more massive than Pluto. <br>
+                        I am big but lots of fun. <br>
+                        557 years the amount of years <br>
+                        It takes me to revolve around the sun. <br>
+                        <br>
+                        There are five dwarf planets in our solar system. <br>
+                        And we revolve around the sun. <br>
+                        Four of us live in the Kuiper Belt <br>
+                        As far as planets we’re the smallest one.
+                        </div>
+                </div>
+                <div class="container">
+                  <button style="position: relative; top:30px;" type="button" class="btn">Links</button>
+                  <div style="top: 60px;" class="content"><a href="https://www.youtube.com/watch?v=4tw_RiQp6H8">https://www.youtube.com/watch?v=4tw_RiQp6H8</a></div>
+                </div>
+                <video src="./imagesvideos/Dwarf Planet Song _ Space Explained by KLT!.mp4" class="video" controls></video>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
